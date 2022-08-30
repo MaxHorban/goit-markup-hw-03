@@ -61,6 +61,8 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .address {
@@ -404,12 +406,15 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-
 }
 
-.portfolio-comtainer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.portfolio-link {}
+
+.portfolio-container {
+    padding: 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
 }
 
 .portfolio-uppertitle {
